@@ -1,0 +1,320 @@
+﻿nav, article, section, header, footer, nav {
+	display: block;
+}
+nav, article, section, header, footer, nav, html, body, p, h1, h2, h3, div {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0 auto;
+    background: #FFFEE5 url(fluid/stucco.jpg) repeat bottom center !important;
+	font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#container {
+	margin: 10px 10px 30px 0px;
+	box-shadow: 10px 10px 10px 10px #999;
+	background: white;
+}
+
+/* --- content --- */
+
+header {
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 1em;
+	color: yellow;
+}
+article {
+	text-align: justify;
+	overflow: hidden;
+}
+section {
+	float: right;
+}
+nav {
+	float: left;
+}
+aside {
+	float: left;
+}
+footer {
+	clear: both;
+	font: 0.8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+	color: yellow;
+}
+.headfoot {
+	/* Old browsers */
+	background: #770101; 
+	/* FF3.6+ */
+	background: -moz-linear-gradient(left, rgba(119,1,1,1) 0%, rgba(234,0,0,1) 50%, rgba(119,1,1,1) 100%); 
+	/* Chrome, Safari4+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(119,1,1,1)), 
+	color-stop(50%, rgba(234,0,0,1)), color-stop(100%, rgba(119,1,1,1))); 
+	/* Chrome10+, Safari5.1+ */
+	background: -webkit-linear-gradient(left, rgba(119,1,1,1) 0%, rgba(234,0,0,1) 50%, rgba(119,1,1,1) 100%); 
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(left, rgba(119,1,1,1) 0%, rgba(234,0,0,1) 50%, rgba(119,1,1,1) 100%); 
+	/* IE10+ */
+	background: -ms-linear-gradient(left, rgba(119,1,1,1) 0%, rgba(234,0,0,1) 50%, rgba(119,1,1,1) 100%); 
+	/* W3C */
+	background: linear-gradient(to right, rgba(119,1,1,1) 0%, rgba(234,0,0,1) 50%, rgba(119,1,1,1) 100%); 
+	/* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#770101', endColorstr='#770101',GradientType=1); 
+	color: yellow;
+}
+.headr {
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 1em;
+	height: 100px; 
+}
+.artcle {
+	margin-bottom: 1em;
+	text-align: justify;
+	font-size: 1em;
+}
+.side {
+ 	padding: 5px 10px 5px 5px;
+	margin: 0px 4px 5px 15px; 
+	background: #fcebae; 
+ }
+.sidenav {
+ 	padding: 5px 10px 5px 5px;
+	margin: 0px 4px 5px 15px; 
+	background: #fcebae; 
+ }
+.footr {
+	font: 0.8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+}
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	height: 100px; 
+	background: url(fluid/header.png) no-repeat; 
+}
+h1 span {
+	display: none;
+}
+h2 {
+	font-size: 1.6em;
+	font-weight: normal;
+	margin-bottom: .2em;
+}
+h3 {
+	font-size: 1.2em;
+	margin-bottom: 1.2em;
+	visibility: visible;
+}
+p {
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+section + img {
+	float: left;
+}
+section a img {
+	border: 0px;
+}
+img + p:first-letter {
+	font-size: 2em;
+	font-weight: bold;
+}
+img { 
+	max-width: 100%; 
+}  
+#menu1 {
+	background: url(fluid/menu1.jpg) no-repeat top left;
+}
+#menu2 {
+	background: url(fluid/menu2.jpg) no-repeat top left;
+}
+#menu3 {
+	background: url(fluid/menu3.jpg) no-repeat top left;
+}
+em {
+	visibility: hidden;
+}
+.menu ul {
+	text-decoration: none;
+ 	text-align: left;
+ 	list-style-image: url(fluid/menubullet.jpg);
+ 	list-style-type: square; 
+ 	list-style-position: outside; 
+	overflow: visible;
+}
+
+/* --- desktop --- */
+
+@media all and (min-width: 960px) {
+
+body {
+	width: 85%;
+	max-width: 1280px;
+	min-width: 960px;
+}
+article {
+	float: right;
+	width: 70%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+section {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;
+	column-gap: 2em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+section:last-of-type {
+	border-bottom: none;
+}
+nav, aside {
+	float: left;
+	width: 20%;
+	padding: 0 2.5%;
+}
+footer {
+	clear: both;
+	padding: 10px 0 10px 0;
+}
+}
+
+/* --- small desktop --- */
+
+@media all and (min-width: 760px) and (max-width: 959px) {
+
+body {
+	width: 85%;
+	max-width: 959px;
+	min-width: 760px;
+}
+article {
+	float: right;
+	width: 70%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+section {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	column-gap: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+section:last-of-type {
+	border-bottom: none;
+}
+nav, aside {
+	float: left;
+	width: 20%;
+	padding: 0 2.5%;
+}
+footer {
+	clear: both;
+	padding: 10px 0 10px 0;
+}
+}
+
+/* --- tablet --- */
+
+@media all and (min-width: 481px) and (max-width: 759px) {
+
+body {
+	width: 90%;
+	max-width: 759px;
+	min-width: 481px;
+	/* font-size: 80%; */
+}
+header h1 {
+	background: url(fluid/header.png) no-repeat;
+	height: 100px;
+	padding-top: 2px;
+}
+article {
+	float: right;
+	width: 60%;
+	padding-left: 2.5%;
+	margin-left: -1em;
+	padding-right: 2.5%;
+}
+nav, aside {
+	float: left;
+	width: 30%;
+	padding: 0 2.5%;
+}
+footer {
+	clear: both;
+	font-size: 0.8em;
+	padding: 10px 0 10px 0;
+}
+h1 {
+	font-size: 2em;
+}
+}
+
+/* --- iPhone --- */
+
+@media all and (max-width: 480px) {
+
+body {
+	width: 90%;
+	max-width: 480px;
+}
+article {
+	width: 90%;
+	padding: 0 2.5% 0 2.5%;
+	text-align: left;
+	margin-bottom: 1em;
+}
+nav, aside {
+	border-top: 2px solid black;
+	padding: 1em 5% 0;
+	font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+footer {
+	padding: 10px 0 10px 0;
+	font-size: 0.8em;
+}
+header h1 {
+	background: url(fluid/headerSmall.png) no-repeat;
+	padding-top: 2px;
+}
+nav h3 {
+	font-size: 1.2em;
+}
+nav em {
+	visibility: visible;
+}
+h1 {
+	text-align: right;
+	font-size: 2em;
+}
+#menu1 {
+	background: rgb(119,1,1);
+	color: yellow;
+}
+#menu2 {
+	background: rgb(119,1,1);
+	color: yellow;
+}
+.menu ul {
+	text-decoration: none;
+ 	text-align: left;
+ 	list-style-type: square; 
+	display: inline-block;
+	}
+.menu ul ul {
+	text-decoration: none;
+ 	text-align: left;
+ 	list-style-type: square; 
+	display: inline;
+	}
+}

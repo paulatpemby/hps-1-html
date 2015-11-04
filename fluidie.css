@@ -1,0 +1,118 @@
+﻿nav, article, section, aside, header, footer {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+html {
+	margin: 0;
+	padding: 0;
+	background: #FFFEE5 url(fluid/stucco.jpg) repeat bottom center !important;
+}
+body {
+	margin: 20px auto;
+	font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#container {
+	width: 900px;
+	margin: 10px auto;
+	background: white;
+	border-left: 5px #770101 solid;
+	border-right: 5px #770101 solid;
+
+}
+.headr {
+	padding: 10px 10px 10px 10px;
+	color: #fff;
+	margin-bottom: 1em;
+	height: 110px; 
+	background: #770101; 
+}
+.artcle {
+	float: right;
+	width: 650px;
+	text-align: justify;
+	font-size: 1em;
+	margin-bottom: 1em;
+	margin-top: -1em;
+	padding: 10px;
+	background: white;
+}
+.side {
+	float: left;
+	width: 195px;
+	background: #fcebae; 
+	margin: 5px;
+}
+.sidenav {
+	float: left;
+	width: 190px;
+	background: #fcebae; 
+	margin: 5px;
+}
+.side img {
+	border: 0px;
+}
+.footr {
+	font: 0.8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+	color: yellow;
+	background: #770101; 
+	height: 30px;
+	clear: both;
+}
+.footr p {
+	padding-top: 10px;
+}
+h1 {
+	background-image: url(fluid/headerIE.png) no-repeat;
+	height: 100px;
+	padding-top: 2px;
+	font-size: 2em;
+	font-weight: bold;
+}
+h1 span {
+	display: none;
+}
+h2 {
+	font-size: 1.6em;
+	font-weight: normal;
+	margin-bottom: .2em;
+}
+h3 {
+	font-size: 1.2em;
+	margin-bottom: 1.2em;
+	visibility: visible;
+}
+p {
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+h2 + img {
+	float: left;
+	border: 0px;
+}
+h3 + img {
+	float: left;
+	padding: 0px;
+}
+#menu1 {
+	background: url(fluid/menu1.jpg) no-repeat top left;
+}
+#menu2 {
+	background: url(fluid/menu2.jpg) no-repeat top left;
+}
+#menu3 {
+	background: url(fluid/menu3.jpg) no-repeat top left;
+}
+em {
+	visibility: hidden;
+}
+.menu ul {
+	width: 170px;
+	text-decoration: none;
+ 	text-align: left;
+ 	list-style-image: url(fluid/menubullet.jpg);
+ 	list-style-type: square; 
+ 	list-style-position: outside; 
+	overflow: visible;
+}

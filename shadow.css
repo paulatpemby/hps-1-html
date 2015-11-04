@@ -1,0 +1,251 @@
+/*****************************/
+/*** Core HTML setup stuff ***/
+/*****************************/
+
+html {
+  height: 100%;
+  margin-bottom: 1px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   background: #FFFEE5 url(images/stucco.jpg) repeat bottom center !important;
+   padding: 0px 0px 0px 0px;
+   font: 14px arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.3em;
+	margin: 0px 0px 0px 0px;
+	font-size: 12px;
+	color: #333;
+	}
+
+/* p { margin-top: 0; margin-bottom: 5px; } */
+
+p {
+	font: 14px arial, sans-serif;
+	text-align: left;
+	margin: 10px 60px 5px 20px;
+	padding: 5px 5px 5px 5px;
+	display: block;
+	}
+
+img {
+	padding-right: 1em; 
+	}
+	
+/* LINKS */
+	
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #BF0000;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #BF0000;
+	}
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	color: blue;
+	}
+a:active {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	}
+a.black:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	}
+	
+/* HEADINGS */
+
+h1 {
+	position: absolute;	
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: -10px -10px 0px 0px;
+	}
+	
+h1 span {
+	display: none;
+	}
+
+h2 {
+	position: absolute;	
+	margin: -35px 0px 0px 232px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+}
+
+h3 {
+	background: #FFFFFF url(images/ybanner.jpg) no-repeat top left;
+	text-align: left;
+	width: 550px; 
+	height: 40px; 
+	margin: 6px 0px 0px 0px; 
+	padding: 6px 0px 0px 10px; 
+	display: block;
+	}
+	
+h3 span {
+	display: block;
+	}
+	
+.short h3 {
+	background: transparent url(images/yrule.jpg) no-repeat top left; 
+	float: left;
+	width: 550px;
+	height: 30px;
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px; 
+	}
+	
+.short h3 span {
+	display: block;
+	text-align: left;
+	}
+	
+.menu {
+	width: 210px;
+	height: 700px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	display: block;
+	color: #FFC229;
+	}
+
+.menu h3 {
+	background: transparent url(images/menu1.jpg) no-repeat top left;
+	width: 180px;
+	height: 22px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 10px;
+	display: block;
+	color: #FFC229;
+	}
+
+.menu h3 span {
+	display: none;
+	}
+
+.menu h4 {
+	background: transparent url(images/menu2.jpg) no-repeat top left;
+	width: 180px;
+	height: 22px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 10px;
+	display: block;
+	color: #FFC229;
+	}
+
+.menu h4 span {
+	display: none;
+	}
+
+h5 {
+	font: 16px arial, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px 60px 0px 20px;
+	padding: 10px 5px 0px 0px;
+	display: block;
+	}
+	
+.menu ul {
+	float: left;
+	text-decoration: none;
+ 	text-align: left;
+ 	list-style-image: url(images/bullet.jpg);
+ 	list-style-type: square; 
+ 	list-style-position: outside; 
+ 	padding: 5px 10px 5px 5px;
+	margin: 0px 4px 5px 15px; 
+	overflow: visible;
+	}
+
+.page	{
+	width: 750px;
+	margin: 0px 210px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+	}
+
+.dropcap:first-letter {
+	color:black;
+	font-size:250%;
+	font-weight: bolder;
+	padding-bottom: 0px;
+	}
+	
+.page	img {
+	display: block;
+	color: #FFC229;
+	float: left;
+	margin: 0px 0px 10px 10px;
+	padding: 10px 5px 0px 0px;
+	}
+	
+ul {
+	display: block;
+	position: relative;	
+	text-decoration: none;
+ 	text-align: left;
+ 	list-style-image: url(images/bullet.jpg);
+ 	list-style-type: square; 
+ 	list-style-position: inside; 
+ 	padding: 5px 4px 5px 15px;
+	margin: 0px 4px 5px 15px; 
+	overflow: visible; 
+	}
+
+li {
+	margin: 5px 0px 0px 5px; 
+	}
+
+span table {
+	display: block;
+	float: right;
+	width: 500px;
+}
+
+div#form table {
+	display: block;
+	width: 500px;
+	font: 14px arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.form table {
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px; 
+}
+
+tr td h4 {
+	background: transparent url(images/yruleshort.jpg) no-repeat top left;
+	float: left;
+	width: 265px;
+	height: 30px;
+	margin: 0px 0px 0px 0px; 
+	padding: 4px 0px 0px 0px; 
+	}
+	
+tr th h4 {
+	background: transparent url(images/yruleshort.jpg) no-repeat top left;
+	float: left;
+	width: 190px;
+	height: 30px;
+	margin: 0px 0px 0px 0px; 
+	padding: 4px 0px 0px 0px; 
+	}
+	
